@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#stepOne{
+    width: 310px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+    clip-path: polygon(0% 0%, 96% 0%, 100% 50%, 96% 100%, 0% 100%);
+}
+#stepTwo{
+    width: 310px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #2EA239 0%, #62FD71 50.52%, #2EA139 100%);
+    clip-path: polygon(96% 0%, 100% 50%, 96% 100%, 0% 100%, 4% 50%, 0% 0%);  
+}
+
+#stepThree{
+    width: 300px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 4% 50%, 0% 0%);   
+}
+h2{
+    width: 80px;
+    height: 26px;
+    text-align: center;
+    top: calc(50% - 26px/2);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
